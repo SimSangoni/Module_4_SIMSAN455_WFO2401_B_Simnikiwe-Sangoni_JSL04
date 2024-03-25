@@ -6,7 +6,7 @@ You will:
 3. Commit changes to your GitHub repository.
 4. Submit the GitHub Repository Link to the LMS [JSL04] Submission Project Tab.
 
-Check out the practice challenges on Scrimba here: https://scrimba.com/playlist/p9bvd5QH3
+Check out the practice challenges on Scrimba here: https://scrimba.com/playlist/p9bvd5QH3  
 
 **Challenge Scenario:** In this coding exercise, you will work with the Monster Ternary Operator. You'll use ternary operators to make decisions based on various scenarios involving Monster Energy drinks.
 
