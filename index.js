@@ -8,8 +8,8 @@
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
 let userPreference = 'Regular'; // Possible values: 'Regular', 'Sugar-free', or undefined
-let message = (userPreference == 'Regular' || userPreference == 'Sugar-free') ? userPreference: "Regular"
-console.log(`${message}`);
+let message1 = (userPreference == 'Regular' || userPreference == 'Sugar-free') ? userPreference: "Regular";
+console.log(`${message1}`);
 
 //######################################################################################################
 
@@ -18,7 +18,8 @@ console.log(`${message}`);
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 3; // Any number of cans
-console.log(``);
+let message2 = (cansLeft < 5) ? "Time to restock!": "We're stocked!";
+console.log(`${message2}`);
 
 //######################################################################################################
 
