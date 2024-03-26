@@ -54,7 +54,6 @@ console.log(`${message4}`);
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!",
 // otherwise, print "Better stick to water."
 
-// Define the current hour in 24-hour format
 let currentHour = 6; 
 let message5 = (currentHour >= 7 && currentHour < 24) ? "Unleash the beast!": "Better stick to water.";
 console.log(`${message5}`);
