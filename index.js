@@ -7,7 +7,7 @@
 // Given a variable that holds a user's preferred type of Monster Energy drink, 
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
-let userPreference = 'Regular'; // Possible values: 'Regular', 'Sugar-free', or undefined
+let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
 let message1 = (userPreference == 'Regular' || userPreference == 'Sugar-free') ? userPreference: "Regular";
 console.log(`${message1}`);
 
@@ -43,7 +43,8 @@ console.log(`${message3}`);
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
 let currentTemp = 4; // Current temperature in °C
-console.log(``);
+let message4 = (currentTemp <= 5) ? "Chilled to perfection!": "Needs a cooler!";
+console.log(`${message4}`);
 
 //######################################################################################################
 
@@ -54,20 +55,8 @@ console.log(``);
 // otherwise, print "Better stick to water."
 
 // Define the current hour in 24-hour format
-let currentHour = 22; 
+let currentHour = 6; 
+let message5 = (currentHour >= 7 && currentHour < 24) ? "Unleash the beast!": "Better stick to water.";
+console.log(`${message5}`);
 
 //######################################################################################################
-
-
-// Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
-// If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
-// Otherwise, print "Better stick to water."
-
-
-
-
-
-
-// In each of these challenges, the ternary operator is used to decide between two options based on a condition, 
-// demonstrating its utility for concise conditional logic. Remember that while ternaries can make the code more succinct, 
-// they should be used judiciously to maintain readability, especially for more complex conditions.
